@@ -1,4 +1,4 @@
-package neal.mitch.nsmaster.content.pager;
+package net.mitchellneal.nst.content.pager;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,9 +13,10 @@ import android.view.ViewGroup;
 
 import org.greenrobot.eventbus.EventBus;
 
-import neal.mitch.nsmaster.R;
-import neal.mitch.nsmaster.content.FirstFrag;
-import neal.mitch.nsmaster.utils.fragments.BlankFrag;
+import net.mitchellneal.nst.R;
+import net.mitchellneal.nst.content.InboxFrag;
+import net.mitchellneal.nst.content.TasksFrag;
+import net.mitchellneal.nst.utils.fragments.BlankFrag;
 
 /**
  * Created by Mitchell Neal on 2/3/2018.
@@ -48,10 +49,12 @@ public class ContainerViewPager extends Fragment {
         return v;
     }
 
+
     /* Initializes ViewPager and Floating Action Button */
     private void initializeViewElements(View v) {
         initViewPager();
     }
+
 
     /* Sets up viewpager and sets current (starting) page */
     private void initViewPager(){
@@ -108,7 +111,9 @@ public class ContainerViewPager extends Fragment {
         public Fragment getItem(int position) {
             switch(position) {
                 case 0:
-                    return new FirstFrag();
+                    return new TasksFrag();
+                case 1:
+                    return new InboxFrag();
             }
             return new BlankFrag();
         }

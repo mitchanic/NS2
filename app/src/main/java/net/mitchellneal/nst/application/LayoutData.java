@@ -1,4 +1,4 @@
-package neal.mitch.nsmaster.application;
+package net.mitchellneal.nst.application;
 
 /**
  * Created by Mitch on 2/6/2018

@@ -131,7 +131,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/divider_bar"
         android:layout_alignParentBottom="true"
-        android:name="neal.mitch.nsmaster.utils.fragments.BlankFrag"
+        android:name= "net.mitchellneal.nst.utils.fragments.BlankFrag"
         tools:layout="@layout/frag_blank" />
 
     <android.support.design.widget.FloatingActionButton

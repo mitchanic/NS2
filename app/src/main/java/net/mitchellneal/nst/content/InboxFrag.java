@@ -1,4 +1,4 @@
-package neal.mitch.nsmaster.content;
+package net.mitchellneal.nst.content;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,11 +12,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import neal.mitch.nsmaster.R;
-import neal.mitch.nsmaster.application.App;
-import neal.mitch.nsmaster.application.SizeData;
-import neal.mitch.nsmaster.utils.I;
-import neal.mitch.nsmaster.utils.fragments.BlankFrag;
+import net.mitchellneal.nst.R;
+import net.mitchellneal.nst.application.App;
+import net.mitchellneal.nst.application.SizeData;
+import net.mitchellneal.nst.utils.I;
+import net.mitchellneal.nst.utils.fragments.BlankFrag;
 
 /**
  * Created by Mitchell Neal 2/3/2018

@@ -1,10 +1,9 @@
-package neal.mitch.nsmaster.application;
+package net.mitchellneal.nst.application;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
-import android.graphics.Point;
 
-import neal.mitch.nsmaster.utils.I;
+import net.mitchellneal.nst.utils.I;
 
 import static android.content.Context.MODE_PRIVATE;
 
